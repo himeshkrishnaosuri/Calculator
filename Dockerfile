@@ -1,3 +1,4 @@
 FROM openjdk:8
-ADD target/Calculator-1.0-SNAPSHOT.jar calc.jar
-CMD ["java","-jar","calc.jar","Calc"]
+WORKDIR /Calcapp
+COPY target/Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar /Calcapp/calc.jar
+ENTRYPOINT ["java","-jar","calc.jar"]
