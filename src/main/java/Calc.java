@@ -29,7 +29,11 @@ public class Calc {
                             result=res1.factorial(b);
                             System.out.print("Result = " + result+" \n");
                             break;
-                case 3 : System.out.print("In log\n");
+                case 3 : System.out.print("Enter number :");
+                            a = scan.nextDouble();
+                            loge res2= new loge();
+                            result = res2.log(a);
+                            System.out.print("Result = " + result+" \n");
                             break;
                 case 4 : System.out.print("In power\n");
                             break;
