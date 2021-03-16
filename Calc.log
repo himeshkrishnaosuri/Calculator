@@ -3,3 +3,7 @@
 16/Mar/2021:07:53:17 081 [INFO] Calc [Square root] - 225.0
 16/Mar/2021:07:53:37 048 [INFO] Calc [Square root] - 300.0
 16/Mar/2021:07:53:45 771 [ERROR] Calc [Square root] - -1.0
+16/Mar/2021:08:15:09 553 [INFO] Calc [Factorial] - 10
+16/Mar/2021:08:16:22 417 [INFO] Calc [Factorial] - 10
+16/Mar/2021:08:16:22 436 [INFO] Calc [Factorial] - 0
+16/Mar/2021:08:16:22 439 [ERROR] Calc [Factorial] - -200

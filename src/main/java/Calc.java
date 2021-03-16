@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class Calc {
     public static void main(String[] args){
         double a,result;
+        int b;
         Scanner scan = new Scanner(System.in);
         int choice;
         do{
             System.out.print("1. Square root(x)\n");
             System.out.print("2. Factorial(x)\n") ;
             System.out.print("3. Log(x) base e\n");
-            System.out.print("4. power(a,b)\n");
+            System.out.print("4. power(a) raised to 10\n");
             System.out.print("5. exit\n");
             System.out.print("Select corresponding number to invoke the appropriate function : ") ;
             choice=scan.nextInt();
@@ -23,7 +24,10 @@ public class Calc {
                             System.out.print("Result = " + result+" \n");
                             break;
                 case 2 : System.out.print("Enter number :");
-                            a=scan.nextDouble();
+                            b=scan.nextInt();
+                            fact res1 = new fact();
+                            result=res1.factorial(b);
+                            System.out.print("Result = " + result+" \n");
                             break;
                 case 3 : System.out.print("In log\n");
                             break;
