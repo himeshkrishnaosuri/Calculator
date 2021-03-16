@@ -8,11 +8,11 @@ public class sqrt {
     double sq_rt(double a){
         String s = String.valueOf(a);
         if(a >= 0 ) {
-            logger.info("Square root of "+s);
+            logger.info("[Square root] - "+s);
             return Math.sqrt(a);
         }
         else{
-            logger.error("Invalid square root of "+s);
+            logger.error("[Square root] - "+s);
             System.out.print("Please enter valid input");
             return -1;
         }

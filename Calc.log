@@ -1,5 +1,5 @@
-2021-03-12 16:16:51.436 [sqrt.java] INFO  Calc - Square root of 1024.0
-2021-03-12 16:16:51.448 [sqrt.java] ERROR Calc - Invalid square root of -200.0
-2021-03-12 20:49:53.060 [sqrt.java] INFO  Calc - Square root of 10.0
-2021-03-12 20:49:56.996 [sqrt.java] INFO  Calc - Square root of 50.0
-2021-03-13 18:05:46.187 [sqrt.java] INFO  Calc - Square root of 10.0
+16/Mar/2021:06:48:05 956 [INFO] Calc [Square root] - 100.0
+16/Mar/2021:06:48:10 274 [ERROR] Calc [Square root] - -100.0
+16/Mar/2021:07:53:17 081 [INFO] Calc [Square root] - 225.0
+16/Mar/2021:07:53:37 048 [INFO] Calc [Square root] - 300.0
+16/Mar/2021:07:53:45 771 [ERROR] Calc [Square root] - -1.0

@@ -22,7 +22,8 @@ public class Calc {
                             result=res.sq_rt(a);
                             System.out.print("Result = " + result+" \n");
                             break;
-                case 2 : System.out.print("In factorial\n");
+                case 2 : System.out.print("Enter number :");
+                            a=scan.nextDouble();
                             break;
                 case 3 : System.out.print("In log\n");
                             break;
