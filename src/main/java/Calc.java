@@ -35,7 +35,11 @@ public class Calc {
                             result = res2.log(a);
                             System.out.print("Result = " + result+" \n");
                             break;
-                case 4 : System.out.print("In power\n");
+                case 4 : System.out.print("Enter number :");
+                            a = scan.nextDouble();
+                            power res3 = new power();
+                            result = res3.raise(a);
+                    System.out.print("Result = " + result+" \n");
                             break;
                 case 5 : System.out.print("Exiting\n");
                             System.exit(0);

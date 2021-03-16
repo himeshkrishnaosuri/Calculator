@@ -12,3 +12,10 @@
 16/Mar/2021:08:33:10 950 [INFO] Calc [Log e] - 10.0
 16/Mar/2021:08:33:10 962 [ERROR] Calc [Log e] - -200.0
 16/Mar/2021:08:33:54 397 [INFO] Calc [Log e] - 10.0
+16/Mar/2021:09:06:57 163 [INFO] Calc [Power 10] - 2.0
+16/Mar/2021:09:07:57 140 [INFO] Calc [Power 10] - 2.0
+16/Mar/2021:09:08:35 181 [INFO] Calc [Power 10] - 2.0
+16/Mar/2021:09:08:41 460 [INFO] Calc [Power 10] - 10.0
+16/Mar/2021:09:09:01 999 [ERROR] Calc [Log e] - -10.0
+16/Mar/2021:09:09:10 192 [INFO] Calc [Square root] - 9000.0
+16/Mar/2021:09:09:15 603 [INFO] Calc [Factorial] - 0
